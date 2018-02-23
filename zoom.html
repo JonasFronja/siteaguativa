@@ -1,0 +1,35 @@
+<html lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>CSS Transforms - Tableless.com.br</title>
+	<style type="text/css" media="screen">
+		.objectImage {
+    width: 147px;
+    height: 340px;
+    object-fit: cover;
+    object-position:left;
+
+
+
+    
+    -webkit-animation:spin 20s linear infinite;
+    -moz-animation:spin 20s linear infinite;
+    animation:spin 20s linear infinite;
+        object-fit: cover;
+        }
+        @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+        @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+        @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+	</style>
+</head>
+<body>
+
+
+    
+ <div class="imagem">
+    <span>object-fit: cover; (imagem recortada)</span>
+    <img class="objectImage" src="img/boianova.fw.png">
+</div>
+
+</body>
+</html>

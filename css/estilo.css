@@ -1,0 +1,886 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	
+	
+}
+body{
+	background-color: #EBEBEB;
+    
+}
+header {
+	
+
+   
+}
+header .blue-min{
+	height: 55px;
+	background-color:#00c1f2;
+
+}
+
+#banner {
+
+	width: 100%;
+	margin-top: -1px;
+	height: 491px;
+}
+
+#logo{
+	position: absolute;
+	margin-left: 100px;
+    margin-top: 24px;
+}
+#ondaclara{
+	position: absolute;
+	margin-top: -170px;
+	width: 100%;
+	height: 180px;
+
+} #ondaazul{    
+ position: absolute;     
+ margin-top: -48px;     
+ width: 100%;
+	
+}
+#menu{
+	position: absolute;
+
+}
+#menu li {
+	display: inline-block;
+	color:#fff;
+}
+#menu ul{
+	margin-left: 280px;
+	margin-top: 30px;
+
+}
+#menu li a {
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 15px;
+	font-weight: bold;
+	text-decoration:none;
+    padding-bottom: 4px;
+    white-space: nowrap;
+}
+#menu li a:hover{
+    text-decoration: underline;
+}
+
+#sel{
+   position: absolute;
+}
+
+#icon{
+	position: absolute;
+	list-style-type:none;
+	margin-left: 97%;
+	margin-top: 1%;
+}
+
+#icon li{
+	padding: 4px 0px;
+
+}
+#icon li a i{
+	color: #fff;
+}
+
+.mergulho-{
+ 	color: #fff;
+ 	margin-top: -350px;
+    margin-left: 0px;
+    text-align: center;
+    width: 100%;
+    font-size: 46px;
+}
+#feliz{
+	margin-top: -54px;
+    font-size: 135%;
+}
+#merg{
+	font-size: 100%;
+}
+#merg small{
+	font-size: 50%;
+}
+
+.form{
+	width: 100%;
+}
+p#text1{
+	color: #1DA8E4;
+    margin-left: 50px;
+    margin-top: 45px;
+    position: absolute;
+    font-size: 120%;
+}
+
+.reserva{
+	margin-left: 215px;
+    margin-top: 40px;
+    position: absolute;
+    width: 100%;
+    padding: 0px;
+    
+}
+
+
+.reserva input {
+
+	width: 120px;
+	border-radius: 5px;
+	border-style: none;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.reserva select{
+
+	width: 120px;
+	border-radius: 5px;
+	border-style: none;
+	color: #1DA8E4;
+	padding: 5px;
+	
+}
+::placeholder {
+    color: #1DA8E4;
+    
+}
+
+.btn {
+	width: 50px;
+    height: 44px;
+    line-height: 34px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.btn-pesquisar {
+    color: #fff;
+    background-color: #1DA8E4;
+    border-color: #1DA8E4;
+    text-decoration: none;
+}
+#dataEntrada{
+	margin-left: 20px;
+}
+#dataSaida{
+	margin-left: 20px;
+}
+#adulto{
+	margin-left: 20px;
+}
+#crianca{
+	margin-left: 20px;
+}
+#pesq{
+	margin-left: 20px;
+}
+
+p#tel{
+	color: #1DA8E4;
+    margin-left: 710px;
+    margin-top: -35px;
+    position: absolute;
+    font-size: 140%;
+}
+#boia{
+	position:fixed;
+    z-index: 3;
+	margin-left: 89%;
+    margin-top: -233px;	
+    
+    -webkit-animation:spin 20s linear infinite;
+    -moz-animation:spin 20s linear infinite;
+    animation:spin 20s linear infinite;
+}
+
+ @-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+
+
+
+#icone{
+	color: #1DA8E4;
+	position: absolute;
+	margin-left: -23px;
+    margin-top: 9px;
+}
+#icons{
+	color: #1DA8E4;
+	position: absolute;
+	margin-left: -23px;
+    margin-top: 9px;
+
+}
+
+.pack h2{
+	color: #1DA8E4;
+	text-align: center;
+	margin-top: 200px;
+	font-size: 35px;
+
+}
+.form{
+    position:absolute;
+    width: 80%;
+}
+#pacote li {
+	display: inline-block;
+
+
+}
+ #pacote ul {
+ 	margin-left: 50px;
+ }
+
+
+.p1{
+    width: 388px;
+    height: 309px;
+    margin-left: 100px;
+    
+}
+.p2{
+     width: 388px;
+    height: 309px;
+    margin-left: 490px;
+    margin-top: -310px;
+    position: absolute;
+}
+.p3{
+     width: 388px;
+    height: 309px;
+    margin-left: 880px;
+    margin-top: -310px;
+    position: absolute;
+}
+.promo{
+    margin-left: 3px;
+    width: 381px;
+    height: 303px;
+    text-align: center;
+    color: #1DA8E4;
+    background-color:rgba(255,255,255,.88);
+    position: absolute;
+    margin-top: 3px;
+    font-size: 19px;
+    border-radius: 5px;
+    display: none;
+}
+
+.p1:hover .promo{
+    display: block;
+}
+.p2:hover .promo{
+    display: block;
+}
+.p3:hover .promo{
+    display: block;
+}
+
+ #next{
+ 	position: absolute;
+ 	margin-left: 1270px;
+ 	margin-top: -185px;
+ 	font-size: 50px;
+ 	border: none;
+ 	color: #1DA8E4;
+ 	background-color: #EBEBEB;
+    
+ }
+
+ #prev{
+ 	position: absolute;
+ 	margin-top: -185px;
+ 	margin-left: 60px;
+ 	font-size: 50px;
+ 	color: #1DA8E4;
+ 	background-color:#EBEBEB;
+ 	border: none;
+    
+ }
+
+#acm1{
+ 	margin-top: 120px;	
+	position: relative;
+	z-index: 0;
+
+}
+#acm2{
+	position: absolute;
+	margin-left: 580px;
+	margin-top: 60px;
+
+	
+}
+
+.acomodacao{
+	height: 55px;
+	background-color:rgba(255,255,255,.88);
+}
+#ondaaco{
+    position: absolute;
+    margin-left:-200px;
+    margin-top:-594px;
+}
+
+#ondaaco1{
+    position: absolute;
+    margin-left:348px;
+    margin-top:-100px;
+}
+.a1{
+    width: 728px;
+    height: 505px;
+    position: absolute;
+    margin-top: -543px;
+    background-color:rgba(255,255,255,.78);
+    text-align: center;
+    color: #1DA8E4;
+    font-size: 35px;
+    text-align: center;
+    display: none;
+    
+
+}
+
+
+.a1 p{
+    margin-top: 200px;
+}
+.a2 p{
+    margin-top: 200px;
+    
+}
+.a2{
+    width: 654px;
+    height: 505px;
+    position: absolute;
+    margin-top: 73px;
+    margin-left: 698px;
+    background-color:rgba(255,255,255,.78);
+    text-align: center;
+    color: #1DA8E4;
+    font-size: 35px;
+    display: none;
+    
+    
+    
+}
+.a2 h2{
+    font-size: 50px;
+}
+
+
+.ac1:hover .a2{
+    display: block;
+}
+.ac2:hover .a1{
+    display: block;
+}
+.ac2{
+    width: 720px;
+}
+
+
+
+.branco{
+	width: 267px;
+	height: 267px;
+	background-color:rgba(255,255,255,.88);
+	position: absolute;
+	margin-left: 585px;
+	margin-top: 150px;
+
+}
+
+.branco h1{
+	color: #1DA8E4;
+	text-align: center;
+}
+.branco p{
+	color: #1DA8E4;
+	text-align: center;
+	font-size: 120%;
+}
+
+.lazer{
+	margin-top: 700px;
+
+
+}
+
+.lazer h2{
+	text-align: center;
+	color: #1DA8E4;
+   margin-top: -100px;
+    margin-left: 600px; 
+    position: absolute;
+    font-size: 35px;
+}
+#lz3{
+	position: absolute;
+	margin-top: 5px;
+	margin-left: 540px;
+}
+
+#lz2{
+	margin-top: -62px;
+        margin-left: -28px;
+	position: absolute;
+	z-index: 2;
+}
+
+ .lazer img {
+          
+    }
+        
+ .lazer img:hover {
+     -webkit-transform:scale(1.2);
+     -moz-transform:scale(1.2);
+     -o-transform:scale(1.2);
+     transform:scale(1.2);
+     
+     
+     z-index: 3;
+    transition: 1s;
+			
+}
+
+.lazer img:out{
+     transition: 1s;
+     -webkit-transform:scale(1.0);
+     -moz-transform:scale(1.0);
+     -o-transform:scale(1.0);
+     transform:scale(1.0);
+}
+#ondalazer{
+    position: absolute;
+    margin-left: 120px;
+    z-index: 10;
+    margin-top: -520px;
+}
+
+
+
+
+
+
+
+.gastronomia{
+	margin-top: 110px;
+
+}
+
+#gast1{
+	position: absolute;
+}
+
+#gast2{
+	margin-left: 340px;
+	position: absolute;
+	
+		
+}
+#gast3{
+	margin-left: 650px;
+	position: absolute;
+		
+}
+
+#gast4{
+	margin-left: 1015px;
+	position: absolute;
+	
+}
+
+.asd{
+    display: inline-block;
+    margin-top: 210px;
+    height: 514px;
+    width: 100%;
+}
+
+
+
+.g1 {
+
+	width: 340px;
+	height: 514px;
+	background-size: 100%;
+	position:absolute;
+	transition: background-size 1s;
+	 -webkit-transition: background-size 1s;
+	background-position: center center;
+}
+.g2 {
+
+	width: 340px;
+	height: 514px;
+	background-size: 100% 100%;
+	margin-left: 340px; 
+	position: absolute;
+	transition: background-size 1s; 
+	-webkit-transition: background-size 1s;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.g3 {
+
+	width: 340px;
+	height: 514px;
+	margin-left: 680px;
+	background-size: 100% 100%;
+	margin-top: 0px;
+	position: absolute;
+	transition: background-size 1s;
+	 -webkit-transition: background-size 1s;
+	 background-position: center center;
+	
+}
+.g4 {
+
+	width: 330px;
+	height: 514px;
+	background-size: 100%;
+	margin-left: 1019px;
+	position:absolute;
+	transition: background-size 1s; 
+	-webkit-transition: background-size 1s;
+	background-position: center center;
+}
+ .g1:hover {background-size: 150%;}
+ .g2:hover {background-size: 150% 150%;}
+ .g3:hover {background-size: 150% 150%;}
+ .g4:hover {background-size: 150%;}
+
+ 
+
+.ret_gastro{
+	width: 514px;
+	height: 118px;
+	background-color:rgba(255,255,255,.88);
+	position: absolute;
+	margin-left: 32%;
+	margin-top: -50px;
+	border-radius: 5px;
+
+}
+
+.ret_gastro h1{
+	color: #1DA8E4;
+	text-align: center;
+
+
+}
+.ret_gastro p{
+	color: #1DA8E4;
+	text-align: center;
+	font-size: 20px;
+	margin-top: -15px;
+
+}
+
+.info_gastro{
+	width: 340px;
+	height: 80px;
+	background-color: gray;
+	position: absolute;
+	background-color:rgba(255,255,255,.58);
+	text-align: center;
+	color: #1DA8E4;
+	margin-top: 440px;
+	font-size: 30px;
+	display: none;
+	
+
+
+}
+
+.info_gastro p{
+	margin-top: 25px;
+}
+#ondagastro{
+    position: absolute;
+    margin-top: 485px;
+    margin-left: 166px;
+}
+.g1:hover .info_gastro{
+    display: block;
+   
+}
+.g2:hover .info_gastro{
+    display: block;
+}
+.g3:hover .info_gastro{
+    display: block;
+}
+.g4:hover .info_gastro{
+	width: 330px;
+    display: block;
+}
+
+#video{
+	margin-left: 149px;
+	margin-top: 100px;
+}
+
+#play{
+	position: absolute;
+	margin-top: -340px;
+	margin-left: 740px;
+
+}
+
+.golfe{
+	width: 325px;
+	height: 500px;
+	background-color: rgba(255,255,255,.98);
+	position: absolute;
+	margin-top: -530px;
+}
+
+.golfe h1{
+	text-align: center;
+	color: #009FE3;
+	font-style: oblique;
+
+}
+
+.golfe p{
+
+	text-align: center;
+	color: #009FE3;
+	font-size: 18px;
+
+}
+
+#ondagolfe{
+	margin-top: -510px;
+	position: absolute;
+}
+
+.eventos{
+	margin-top: 100px;
+}
+.eventos h1{
+ 
+ color: #009FE3;
+ margin-top: -77px;
+ margin-left: 480px;
+ position: absolute; 
+}
+
+.fotos_evt{
+	width: 590px;
+	height: 570px;
+	background-color: rgba(255,255,255,.88);
+	position: absolute;
+	margin-top: -630px;
+	margin-left: 758px;
+	border-radius: 5px;
+}
+
+.fotos_evt table{
+	margin-top: 30px;
+	 color: #009FE3;
+
+}
+
+#onda_evt{
+	position: absolute;
+	margin-left: -950px;
+	margin-top: -50px;
+
+}
+
+p#text2{
+	color: #1DA8E4;
+    margin-left: 320px;
+    margin-top: 44px;
+    
+    font-size: 120%;
+}
+
+.novo{
+	margin-left: 500px;
+	margin-top: -48px;
+}
+
+.novo input {
+
+	width: 120px;
+	border-radius: 5px;
+	border-style: none;
+	padding: 5px;
+	margin-bottom: 5px;
+}
+.user{
+    margin-top: 100px;
+}
+
+.dsa{
+	margin-top: 150px;
+}
+
+.f1 {
+
+	width: 225px;
+	height: 180px;
+	background-size: 100%;
+	position:absolute;
+}
+.f2{
+
+	width: 220px;
+	height: 185px;
+	margin-left: 220px;
+	background-size: 100%;
+	position:absolute;
+}
+.f3{
+
+	width: 235px;
+	height: 180px;
+	margin-left: 440px;
+	background-size: 100%;
+	position:absolute;
+}
+.f4{
+
+	width: 230px;
+	height: 180px;
+	margin-left: 675px;
+	background-size: 100%;
+	position:absolute;
+}
+.f5{
+
+	width: 230px;
+	height: 180px;
+	margin-left: 900px;
+	background-size: 100%;
+	position:absolute;
+}
+.f6{
+
+	width: 220px;
+	height: 180px;
+	margin-left: 1128px;
+	background-size: 100%;
+	position:absolute;
+}
+
+.insta{
+	width: 340px;
+	height: 80px;
+	position: absolute;
+	background-color:rgba(255,255,255,.58);
+	text-align: center;
+	color: #009FE3;
+	display: none;
+    font-size: 30px;
+    
+}
+
+.f1:hover .insta{
+
+    display: block;
+    width: 225px;
+	height: 180px;
+   
+}
+.f2:hover .insta{
+
+    display: block;
+    width: 225px;
+	height: 180px;
+   
+}
+.f3:hover .insta{
+
+    display: block;
+    width: 235px;
+	height: 180px;
+   
+}
+.f4:hover .insta{
+
+    display: block;
+    width: 225px;
+	height: 180px;
+   
+}
+.f5:hover .insta{
+
+    display: block;
+    width: 225px;
+	height: 180px;
+   
+}
+.f6:hover .insta{
+
+    display: block;
+    width: 225px;
+	height: 180px;
+   
+}
+#ondacima{
+    position: absolute;
+    margin-top: -26px;
+    margin-left: -2px;
+    
+}
+#ondabaixo{
+    position: absolute;
+    margin-top: 161px;
+     margin-left: -2px;
+    
+}
+
+#instalogo{
+    margin-top: -130px;
+    position: absolute;
+}
+
+.fim{
+    text-align: center;
+    
+}
+#logo1{
+    margin-top: 250px;
+    
+}
+.fim p{
+    color: #1E4D98;
+    margin-top: 100px;
+}
+.cinza{
+    height: 200px;
+    
+}
+.promocao{
+    width: 260px;
+    height: 80px;
+    background-color: #FFF;
+    margin-left: 1088px;
+    margin-top: -110px;
+    position: absolute;
+}
+
+.promocao p{
+    
+    color: #009FE3;
+    font-size: 35px;
+    text-align:center;
+    margin-top: 20px;
+}
+
+
+
+
+
