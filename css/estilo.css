@@ -187,19 +187,19 @@ p#tel{
     font-size: 140%;
 }
 #boia{
-	position:fixed;
-    z-index: 3;
-	margin-left: 89%;
+	position:absolute;
+    z-index: 6;
+	margin-left: 88.9%;
     margin-top: -233px;	
     
-    -webkit-animation:spin 20s linear infinite;
+   /* -webkit-animation:spin 20s linear infinite;
     -moz-animation:spin 20s linear infinite;
-    animation:spin 20s linear infinite;
+    animation:spin 20s linear infinite;*/
 }
 
- @-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
+ /*@-moz-keyframes spin { 100% { -moz-transform: rotate(-360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(-360deg); } }
-@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } */
 
 
 
@@ -239,23 +239,20 @@ p#tel{
 
 
 .p1{
+   
     width: 388px;
     height: 309px;
-    margin-left: 100px;
+    
     
 }
 .p2{
      width: 388px;
     height: 309px;
-    margin-left: 490px;
-    margin-top: -310px;
     position: absolute;
 }
 .p3{
-     width: 388px;
+    width: 388px;
     height: 309px;
-    margin-left: 880px;
-    margin-top: -310px;
     position: absolute;
 }
 .promo{
@@ -284,23 +281,25 @@ p#tel{
 
  #next{
  	position: absolute;
- 	margin-left: 1270px;
+ 	margin-left: 1275px;
  	margin-top: -185px;
  	font-size: 50px;
  	border: none;
  	color: #1DA8E4;
  	background-color: #EBEBEB;
+     outline: 0;
     
  }
 
  #prev{
  	position: absolute;
  	margin-top: -185px;
- 	margin-left: 60px;
+ 	margin-left: 50px;
  	font-size: 50px;
  	color: #1DA8E4;
  	background-color:#EBEBEB;
  	border: none;
+     outline: 0;
     
  }
 
@@ -361,7 +360,7 @@ p#tel{
     height: 505px;
     position: absolute;
     margin-top: 73px;
-    margin-left: 698px;
+    margin-left: 687px;
     background-color:rgba(255,255,255,.78);
     text-align: center;
     color: #1DA8E4;
@@ -660,7 +659,7 @@ p#tel{
 }
 
 #ondagolfe{
-	margin-top: -510px;
+	margin-top: -430px;
 	position: absolute;
 }
 
@@ -879,6 +878,45 @@ p#text2{
     text-align:center;
     margin-top: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#news {
+	position: relative;
+    margin-left: 80px;
+    width: 88.5%;
+    
+    
+   
+}
+
+#news .thumbnails {
+	margin-top: 20px;
+     
+}
+
+
+#news .thumbnails .item-inner{
+	padding: 10px;
+     width: 388px;
+    height: 309px;
+   
+}
+
+
+
+
 
 
 
